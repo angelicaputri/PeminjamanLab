@@ -1,0 +1,8 @@
+Hasilnya adalah kode unik sebanyak 60 karakter.
+
+Cara Membuat Enkripsi Password yang Kuat
+
+Fungsi password_hash(), memiliki 3 paramater, yang pertama adalah password kita yang akan dienkrip, yang kedua adalah algoritma bcrypt, dan yang ketiga adalah options, options terdiri dari 2 yakni cost dan salt (deprecated in PHP 7.0). Cost adalah jumlah hashing "pengacakan" dengan default 10 (2^10) dan Salt adalah karakter acak tambahan yang akan digabungkan dengan password saat proses hashing yang memungkinkan hasil enkripsi lebih kuat.
+
+ion auth baris 69
+ion auth model baris 261
